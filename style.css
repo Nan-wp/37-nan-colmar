@@ -5,40 +5,53 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/* section head bar */
 .header{
     display: flex;
     justify-content: space-between;
     padding: 24px;
     
+    
 }
 .leftbar{
     display: flex;
     justify-content: flex-start;  
-    gap: 10px;
    
 }
-.rigthbar{
+.rightbar{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     padding: 24px;
-    
+    font-size: 16px;
+    gap:16px;
 }
+ul{
+    list-style: none;
+}
+/* section 1 */
 .main{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 24px;
+    padding:  32px 24px 32px;
     background-color: rgb(151, 151, 151);
     height: 100vh;
     gap: 24px;
 
 }
-.start{
-    display: flex;
-    align-items: center;
-    width: 100vh;
-    height: 100vh;
-    padding: 24px;
+.main-left{
+    padding:  32px 24px 32px;
+    width: 60%;
+}
+#main-img{
+    width: 100%;
+    height: 100%;
+}
+.main-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding:  32px 24px 32px;
+   margin: 30px;
 }
 button{
     border: none;
@@ -47,6 +60,67 @@ button{
     cursor: pointer;
     transition: 0.5s;
     color: white;
-    padding: 8px 80px 8px;
+    padding: 8px 50px 8px;
     font-size: 18px;
+}
+/* section 2 */
+.information-main{
+    padding: 32px 24px 32px;
+    display: flex;
+}
+#information-main{
+    width: 100%;
+    height: 100%;
+}
+.information{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.info-left{
+    padding: 24px;
+    width: 60%;
+}
+.info-box1{
+    padding: 24px;
+    gap: 20px;
+    display: flex;
+    border: solid 1px gray;
+}
+.info-box-left{
+    width: 35%;
+
+}
+.info-box-right{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#img-info1{
+    width: 100%;
+    height: 100%;
+}
+#img-info2{
+    width: 100%;
+    height: 100%;
+}
+#img-info3{
+    width: 100%;
+    height: 100%;
+}
+/* section 3 */
+.about-main{
+    display: flex;
+    justify-content:center;
+    padding: 32px 24px 32px;
+    gap:10px;
+    flex-direction : column;
+
+}
+.course-pic{
+    width: 60%;
+    height: 100%;
 }
