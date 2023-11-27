@@ -112,15 +112,62 @@ button{
     height: 100%;
 }
 /* section 3 */
+.about-container{
+    padding: 32px 24px 32px;
+      background-color:gray;
+}
+.about-container h1{
+    text-align: center;
+}
 .about-main{
     display: flex;
     justify-content:center;
     padding: 32px 24px 32px;
-    gap:10px;
-    flex-direction : column;
-
+    gap:32px;
+    flex-direction : row;
+    flex-wrap: wrap;
 }
 .course-pic{
+    width: 25%;
+    background-color: white;
+}
+.course-pic img{
+    width: 100%;
+}
+.course-text{
+    padding: 16px;
+}
+
+/* section 4 */
+.thesis-container{
+    padding: 24px 24px 32px;
+    display: flex;
+    
+}
+.thesis-left{
+    padding: 24px;
     width: 60%;
-    height: 100%;
+    
+}
+.thesis-right{
+    padding: 24px;
+    width: 40%;
+}
+.thesis-card{
+    display: flex;
+    flex-direction: row;
+   width: 100%;
+}
+.thesis-fisma{
+    width: 35%;
+}
+.thesis-fisma img{
+    width: 100%;
+}
+.text-fisma{
+    padding: 16px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
