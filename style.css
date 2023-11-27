@@ -34,13 +34,14 @@ ul{
     justify-content: space-between;
     padding:  32px 24px 32px;
     background-color: rgb(151, 151, 151);
-    height: 100vh;
+    
     gap: 24px;
 
 }
 .main-left{
     padding:  32px 24px 32px;
     width: 60%;
+    height: 70vh;
 }
 #main-img{
     width: 100%;
@@ -170,4 +171,15 @@ button{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+.footer-container{
+    padding: 24px 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    border-top:solid 1px gray;
+}
+.footer-menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
